@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Chrome outliner",
+  "description": "This extension enables toggling of visility of a html outline document",
+  "version": "0.1",
+  "browser_action": {
+    "name": "Manipulate DOM",
+    "default_icon": "icon.png"
+  },
+
+  "permissions": [
+     "activeTab"
+     ],
+"background": {
+       "scripts": ["enable.js"],
+   	    "persistent": false
+  },
+    "content_scripts": [ {
+      "css": ["outliner.css"],
+      "matches": [ "http://*/*", "https://*/*", "file://*/*"]
+    }]
+}

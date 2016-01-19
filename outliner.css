@@ -1,0 +1,6 @@
+.more:before {
+    content: "+";
+}
+.more {
+    border: 1px solid green;
+}
