@@ -15,3 +15,5 @@ change colour to indicate that it is activated.
 - Once toggled on a tab, the icon appears to be activated on all tabs until
   the browser session is resumed (even though it may not be active on any other tab.)
 - The cursor style is a pointer anywhere inside any list item containing sublist.
+
+![demo](https://github.com/aroberge/chrome-outliner/blob/master/outliner.gif)
