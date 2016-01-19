@@ -14,7 +14,10 @@
      ],
 "background": {
        "scripts": ["enable.js"],
-       "css": ["outliner.css"],
    	    "persistent": false
-  }
+  },
+    "content_scripts": [ {
+      "css": ["outliner.css"],
+      "matches": [ "http://*/*", "https://*/*", "file://*/*"]
+    }]
 }
